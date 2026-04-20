@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Austin Shelton, Controls Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <div class="logo">Austin Shelton</div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero hero-secondary">
+    <div class="container">
+      <h1>My Projects</h1>
+      <p class="tag">A showcase of my work in controls engineering, automation, and software development</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="project-detail">
+      <div class="project-header">
+        <h2>ConvSys — Virtual Conveyor Solutions</h2>
+        <p class="project-meta">Industrial Automation | PLC Programming | Virtual Simulation</p>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-images">
+          <figure class="main-image">
+            <img src="pics/CONV.png" alt="ConvSys conveyor ladder logic programming">
+          </figure>
+          <figure class="secondary-image">
+            <img src="pics/PE_FAULT.png" alt="Photo-eye fault detection and handling system">
+          </figure>
+        </div>
+
+        <div class="project-info">
+          <h3>Project Overview</h3>
+          <p>ConvSys is a comprehensive turnkey conveyor system solution that combines virtual design, PLC automation, and operator training. It provides a complete package for designing, testing, and training on industrial conveyor systems in a virtual environment before physical deployment.</p>
+
+          <h3>Key Features</h3>
+          <ul>
+            <li><strong>Virtual Design & Simulation:</strong> Full 3D virtual conveyor models to validate flow, sensor placement, and system interactions.</li>
+            <li><strong>PLC Ladder Logic:</strong> Industry-standard Allen-Bradley ladder routines with complete fault handling and safety interlocks.</li>
+            <li><strong>Fault Detection:</strong> Photo-eye jam detection, motor overload monitoring, and predictive maintenance logic.</li>
+            <li><strong>HMI & Control Stations:</strong> Virtual operator stations for safe, cost-effective training and acceptance testing.</li>
+            <li><strong>SCADA Integration:</strong> FactoryTalk compatible interfaces and documentation for seamless integration with existing systems.</li>
+            <li><strong>Operator Training:</strong> Complete simulation-based training modules to reduce ramp-up time and commissioning risks.</li>
+          </ul>
+
+          <h3>Technical Details</h3>
+          <p><strong>PLC Programming:</strong> Complete control sequence with fault handling, emergency stops, and diagnostics.</p>
+          <p><strong>Sensors & Inputs:</strong> Photo-eye sensors, pressure switches, motor run feedback, and junction presence detection.</p>
+          <p><strong>Safety Features:</strong> Dual-channel fault detection, jam prevention, and real-time alerts for operator safety.</p>
+          <p><strong>Documentation:</strong> Full project documentation, ladder logic printouts, and troubleshooting guides included.</p>
+
+          <h3>Benefits</h3>
+          <ul>
+            <li>Virtual testing reduces commissioning time by 40-50%</li>
+            <li>Operator training is safer and more cost-effective than physical systems</li>
+            <li>Fault handling logic is proven and validated before deployment</li>
+            <li>Complete documentation ensures smooth integration and future maintenance</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-media">
+        <h3>System Demonstration</h3>
+        <div class="videos">
+          <div class="video-wrap">
+            <video
+              src="pics/CONV.mp4"
+              muted
+              autoplay
+              loop
+              playsinline
+              controls
+            ></video>
+            <p class="caption">Conveyor operation and sequencing demonstration</p>
+          </div>
+          <div class="video-wrap">
+            <video
+              src="pics/E3D.mp4"
+              muted
+              autoplay
+              loop
+              playsinline
+              controls
+            ></video>
+            <p class="caption">3D virtual conveyor system visualization</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-workflow">
+        <h3>Development Process</h3>
+        <ol>
+          <li><strong>Requirements Analysis:</strong> Consultation to identify throughput targets, system constraints, and safety requirements.</li>
+          <li><strong>Virtual Prototype:</strong> Create a virtual conveyor model with complete PLC logic and HMI interface for initial review and testing.</li>
+          <li><strong>Validation & Testing:</strong> Comprehensive fault injection testing, operator training, and acceptance procedures validated in simulation.</li>
+          <li><strong>Integration & Delivery:</strong> Finalized PLC code, ladder logic documentation, and integration guides delivered for field commissioning.</li>
+          <li><strong>Support & Training:</strong> Ongoing support and operator training to ensure successful deployment and maintenance.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="project-detail">
+      <div class="project-header">
+        <h2>AI Chat Application — Ollama-Powered Conversational AI</h2>
+        <p class="project-meta">Artificial Intelligence | Full-Stack Development | Chat Management</p>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-images">
+          <figure class="main-image">
+            <img src="pics/ai-clone.png" alt="AI Chat Application Interface" style="background:#2d7dd2;height:200px;display:flex;align-items:center;justify-content:center;color:white;font-size:1.2rem;">
+            <img src="pics/ai saved chat.png" alt="AI Chat Application Interface" style="background:#2d7dd2;height:200px;display:flex;align-items:center;justify-content:center;color:white;font-size:1.2rem;">
+            <span style="position:absolute;color:white;font-weight:bold;">AI Chat Interface</span>
+          </figure>
+        </div>
+
+        <div class="project-info">
+          <h3>Project Overview</h3>
+          <p>A modern, full-featured AI chat application powered by Ollama that enables users to have intelligent conversations, save chat history, and create multiple conversation threads. The application provides a seamless interface for interacting with local language models with persistent storage capabilities.</p>
+
+          <h3>Key Features</h3>
+          <ul>
+            <li><strong>Multi-Chat Support:</strong> Create, manage, and switch between multiple independent chat conversations.</li>
+            <li><strong>Chat Persistence:</strong> Automatically save all conversations with full chat history and context preservation.</li>
+            <li><strong>Ollama Integration:</strong> Leverage local language models for fast, private AI interactions without external API calls.</li>
+            <li><strong>Question Answering:</strong> Intelligent responses to user queries with context-aware understanding.</li>
+            <li><strong>Chat Management:</strong> Edit, delete, and organize conversations with intuitive user controls.</li>
+            <li><strong>Real-time Processing:</strong> Streaming responses for natural, interactive conversations.</li>
+          </ul>
+
+          <h3>Technical Details</h3>
+          <p><strong>Architecture:</strong> Full-stack application with frontend UI and backend API integration.</p>
+          <p><strong>AI Engine:</strong> Ollama for running local language models (LLaMA, Mistral, Neural Chat, and more).</p>
+          <p><strong>Data Storage:</strong> Persistent database for saving chats, conversation history, and user preferences.</p>
+          <p><strong>User Interface:</strong> Responsive, intuitive design for ease of use across devices.</p>
+          <p><strong>Core Functionality:</strong> Create new chats, send messages, receive AI responses, save chat history, and manage multiple conversations simultaneously.</p>
+
+          <h3>Benefits</h3>
+          <ul>
+            <li>Privacy-first approach with local model execution</li>
+            <li>No API rate limits or usage fees</li>
+            <li>Complete chat history available for reference and learning</li>
+            <li>Flexible conversation management for various use cases</li>
+            <li>Low latency responses from local processing</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-workflow">
+        <h3>Development Process</h3>
+        <ol>
+          <li><strong>Requirements Definition:</strong> Design the chat interface and data model for conversation storage.</li>
+          <li><strong>Ollama Integration:</strong> Set up Ollama connection and implement API communication for model inference.</li>
+          <li><strong>Database Design:</strong> Create schema for storing chats, messages, and conversation metadata.</li>
+          <li><strong>Frontend Development:</strong> Build responsive UI with chat interface, message input, and chat management controls.</li>
+          <li><strong>Feature Implementation:</strong> Add multi-chat support, persistence, streaming responses, and history management.</li>
+          <li><strong>Testing & Refinement:</strong> Validate AI responses, test chat saving/loading, and optimize user experience.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="project-detail">
+      <div class="project-header">
+        <h2>To-Do Application — Task Management & Calendar System</h2>
+        <p class="project-meta">Full-Stack Development | Server Architecture | Calendar Integration</p>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-images">
+          <figure class="main-image">
+            <img src="pics/placeholder-todo.png" alt="To-Do Application Interface" style="background:#4aa3e0;height:200px;display:flex;align-items:center;justify-content:center;color:white;font-size:1.2rem;">
+            <span style="position:absolute;color:white;font-weight:bold;">To-Do App Dashboard</span>
+          </figure>
+        </div>
+
+        <div class="project-info">
+          <h3>Project Overview</h3>
+          <p>A comprehensive task management application featuring an integrated calendar system, server-based architecture, and a responsive home page. The application provides users with an intuitive platform to create, organize, and track their tasks with calendar visualization and real-time synchronization.</p>
+
+          <h3>My Responsibilities</h3>
+          <ul>
+            <li><strong>Server Architecture:</strong> Designed and implemented the backend server infrastructure for handling task management, user authentication, and data persistence.</li>
+            <li><strong>Calendar System:</strong> Built the calendar component with task scheduling, date-based filtering, and visual task indicators.</li>
+            <li><strong>Home Page & Website:</strong> Created the foundational home page layout, navigation structure, and core responsive design.</li>
+            <li><strong>Core Functionality:</strong> Implemented task creation, editing, deletion, and status tracking system.</li>
+            <li><strong>Database Integration:</strong> Designed database schema and established ORM connections for efficient data management.</li>
+          </ul>
+
+          <h3>Key Features</h3>
+          <ul>
+            <li><strong>Task Management:</strong> Create, edit, and delete tasks with priority levels and due dates.</li>
+            <li><strong>Calendar Integration:</strong> Visual calendar display with color-coded tasks and date-based organization.</li>
+            <li><strong>Task Status Tracking:</strong> Mark tasks as complete, pending, or in-progress with real-time status updates.</li>
+            <li><strong>Server Synchronization:</strong> Automatic sync between client and server ensuring data consistency across devices.</li>
+            <li><strong>Responsive Design:</strong> Mobile-friendly interface that adapts to all screen sizes.</li>
+            <li><strong>User Dashboard:</strong> Centralized home page showing task overview, upcoming deadlines, and quick-access controls.</li>
+            <li><strong>Task Organization:</strong> Categorize tasks, set reminders, and organize by priority or due date.</li>
+          </ul>
+
+          <h3>Technical Details</h3>
+          <p><strong>Architecture:</strong> Full-stack application with Node.js/Express backend and modern frontend framework.</p>
+          <p><strong>Server Setup:</strong> RESTful API endpoints for task CRUD operations, user management, and data retrieval.</p>
+          <p><strong>Calendar Module:</strong> Calendar library integration with custom styling and task visualization layers.</p>
+          <p><strong>Database:</strong> Relational database (SQL) or NoSQL solution for storing tasks, user data, and scheduling information.</p>
+          <p><strong>Frontend Stack:</strong> HTML, CSS, and JavaScript with responsive layout framework for cross-device compatibility.</p>
+          <p><strong>Real-time Features:</strong> WebSocket or polling implementation for live updates and synchronization.</p>
+
+          <h3>Benefits</h3>
+          <ul>
+            <li>Centralized task management across multiple devices</li>
+            <li>Visual calendar representation for better deadline awareness</li>
+            <li>Improved productivity through organized task prioritization</li>
+            <li>Seamless data persistence and synchronization</li>
+            <li>Intuitive user interface reduces learning curve</li>
+            <li>Scalable server architecture supports future feature expansion</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-workflow">
+        <h3>Development Process</h3>
+        <ol>
+          <li><strong>Design & Planning:</strong> Outline application structure, user workflows, and database schema requirements.</li>
+          <li><strong>Server Implementation:</strong> Build backend API with authentication, task endpoints, and database connections.</li>
+          <li><strong>Home Page Development:</strong> Create responsive landing page, navigation, and dashboard layout.</li>
+          <li><strong>Calendar Component:</strong> Integrate calendar library and develop custom task visualization features.</li>
+          <li><strong>Core Functionality:</strong> Implement task CRUD operations, status management, and synchronization logic.</li>
+          <li><strong>Frontend Refinement:</strong> Polish UI/UX, ensure responsive design, and optimize performance.</li>
+          <li><strong>Integration & Testing:</strong> Connect frontend to backend, perform end-to-end testing, and validate data persistence.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Austin Shelton — Controls Engineer</div>
+  </footer>
+</body>
+</html>
