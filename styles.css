@@ -191,3 +191,90 @@ h2{margin:0 0 8px;color:#0b3f6b}
 ul{margin:8px 0 0 20px}
 .screenshot{max-width:100%;height:auto;border:1px solid #e6e6e6;border-radius:4px}
 .doc-footer{font-size:0.9rem;color:var(--muted);text-align:center;margin:16px 0 32px}
+
+/* Resume Styles */
+.resume {
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 0.5in;
+  font-size: 11pt;
+  line-height: 1.4;
+  color: #000;
+  background: #fff;
+}
+.resume h1 {
+  font-size: 24pt;
+  margin-bottom: 4pt;
+  color: #000;
+}
+.title {
+  font-size: 12pt;
+  color: #333;
+  margin-bottom: 12pt;
+}
+.summary, .experience, .skills {
+  margin-bottom: 16pt;
+}
+.summary h2, .experience h2, .skills h2 {
+  font-size: 14pt;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2pt;
+  margin-bottom: 8pt;
+}
+.job h3 {
+  font-size: 12pt;
+  margin-bottom: 4pt;
+}
+.skills ul {
+  padding-left: 20pt;
+}
+.skills li {
+  margin-bottom: 2pt;
+}
+@media print {
+  body {
+    margin: 0;
+  }
+  .resume {
+    margin: 0;
+    padding: 0.5in;
+  }
+}
+
+/* Additional styles */
+.contact {
+  font-size: 12pt;
+  color: #333;
+  margin-bottom: 12pt;
+}
+.education h2 {
+  font-size: 14pt;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2pt;
+  margin-bottom: 8pt;
+}
+.edu h3 {
+  font-size: 12pt;
+  margin-bottom: 4pt;
+}
+.edu p {
+  margin: 2pt 0;
+  font-size: 11pt;
+}
+.projects h2 {
+  font-size: 14pt;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2pt;
+  margin-bottom: 8pt;
+}
+.project h3 {
+  font-size: 12pt;
+  margin-bottom: 4pt;
+}
+.job ul, .project ul {
+  padding-left: 20pt;
+  margin: 8pt 0;
+}
+.job li, .project li {
+  margin-bottom: 2pt;
+}
